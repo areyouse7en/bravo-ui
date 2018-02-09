@@ -1,4 +1,4 @@
-import Icon from './icon';
+import Icon from '@c/icon';
 
 const version = '0.0.1';
 const components = [
