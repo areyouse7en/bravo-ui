@@ -1,7 +1,6 @@
 import Vue from 'vue'
-Vue.config.productionTip = false
-
 import Bravo from 'bravo'
+import '@a/styles/index.scss'
 Vue.use(Bravo)
 
 import App from './App.vue'
