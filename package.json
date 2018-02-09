@@ -1,12 +1,14 @@
 {
-  "name": "will-ui",
-  "version": "0.1.0",
+  "name": "bravo-ui",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "author": "Seven_Tao",
+  "license": "MIT",
   "dependencies": {
     "vue": "^2.5.13",
     "vue-router": "^3.0.1"
