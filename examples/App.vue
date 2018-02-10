@@ -1,14 +1,12 @@
-<template lang="pug">
-div
-  Icon(type="camera",color="blue")
-  Icon(type="good")
-  Icon(type="code")
-  Icon(type="apparel")
-  Icon(type="add")
+<template>
+  <div id="app">
+    <nav>
+      <ul>
+        <li>
+          <router-link to="/icon">icon</router-link>
+        </li>
+      </ul>
+    </nav>
+    <router-view/>
+  </div>
 </template>
-
-<script>
-export default {
-  name: "app"
-};
-</script>
