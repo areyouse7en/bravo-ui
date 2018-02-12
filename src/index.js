@@ -1,4 +1,5 @@
 import Icon from '@c/icon';
+import Indicator from '@c/indicator';
 
 const version = '0.0.1';
 const components = [
@@ -7,8 +8,10 @@ const components = [
 
 const install = Vue => {
   components.forEach(Component => {
-    Vue.use(Component);
+    Vue.component(Component.name, Component);
   });
+
+  Vue.prototype.$Indicator = Indicator
 };
 
 // auto install

@@ -1,0 +1,17 @@
+.#{$prefix}indicator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background: $mask-color;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: $lvl-important;
+  .icon {
+    padding: 16px;
+    line-height: 1;
+    animation: circle 1s linear infinite;
+  }
+}
