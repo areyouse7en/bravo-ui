@@ -1,13 +1,10 @@
-<template>
-  <i :class="classes" :style="styles"></i>
+<template lang="pug">
+  i(:class="classes",:style="styles")
 </template>
 
 <script>
-import install from "@u/install";
-
 export default {
   name: "Icon",
-  install,
   props: {
     type: String,
     size: [Number, String],

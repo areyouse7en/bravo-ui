@@ -4,6 +4,16 @@ div
     .icon
       Icon(:type="icon")
     .name {{icon}}
+  hr
+  .item
+    .icon
+      Icon(type="cart")
+  .item
+    .icon
+      Icon(type="cart",size="24")
+  .item
+    .icon
+      Icon(type="cart",size="24",color="red")
 </template>
 
 <script>
